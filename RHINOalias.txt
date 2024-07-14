@@ -1,0 +1,188 @@
+﻿cf !_Chamfer
+3sww !_subdsweep2
+aef ! ADSurfaceFromCurves
+3j !_stitch
+cg !_Curvaturegraph
+3fe !_bevel
+crv !_-Changelayer _Pause  crv
+fc !_filletcorners
+scc !_Scale2D
+3l !_insertedge
+3ff !_insert
+rec !_Rectangle
+3m !_Reflect
+fe !_FilletEdge
+secv !_selcrv
+crop !_rectangle _c  _Pause _Pause _trim _sellast _enter _pause _enter
+ff !_Offset
+cl !_Line _Bothsides
+3p !_insertpoint
+trash !_-Changelayer _Pause  trash
+ic !_InterpCrv
+3q !_subdsphere
+fi !_Fillet
+co ! _copy _pause _InPlace
+3s !_slide
+wh !_What
+fl !_Flow
+cfe !_ChamferEdge
+cr !_ClippingPlane
+to !_Tosubd
+cvv !_Interpcrv
+sef !_SelSrf
+tr !_Trim
+lf !_loft
+cu !_Curvature
+ik !_InsertKnot
+3jf !_mergefaces
+cv ! _Curve
+int !_Intersect
+POn ! _PointsOn
+in !_Invert
+cgg !_Curvaturegraphoff
+ft !_Loft
+cy !_Cylinder
+tw !_Twist
+bbs !_BooleanSplit
+lk !_lock
+sept !_selpt
+ll ! _Left
+sww ! _Sweep2
+scn !_ScaleNU
+bbu !_BooleanUnion
+re !_Rebuild
+lo !_Loft
+amf !_ADsurfacematching
+pfs ! SelPictureframe -_Properties _Material _Object _Enter _T 30 _EnterEnd -_Layer _New background _Lock background _Enter -_ChangeLayer _New background
+de !_Delete
+ext !_extrudecrv
+sem !_Selmesh
+POff ! _PointsOff
+al !_Align
+glass !_-Changelayer _pause  glass
+ZE '_Zoom _Extents
+fff !_OffsetSrf
+oo !_Orient3pt
+am !_ADModeling
+op !_Options
+di !_Divide
+ray !_SetdisplayMode _M _y
+ZEA '_Zoom _All _Extents
+zz !_ZebraOff
+3ex !_extrudesubd _pause N
+Break ! _DeleteSubCrv
+gh '_Grasshopper
+ar !_Array
+rr !_RailRevolve
+asc ! ADSurfaceFromCurves
+ma !_Maxviewport
+fla !_FlowAlongsrf
+3mm !_reflect _pause _r
+rs !_EditPythonScript
+un !_Unlock
+3fff !_offsetsubd
+3lo !_subdloft
+3re !_quadremesh
+dr !_drape
+mc !_Match
+pol !_Polyline
+crosssectionview !_ClippingPlane
+ds !_DragStrength
+rv !_Revolve
+clip !_ClippingPlane
+gp !_Group
+mf !_MatchSrf
+ZS '_Zoom _Selected
+pa !_Patch
+vbs !_VariableBlendSrf
+oplane !_Cplane _World _Bottom
+ptf !_SrfPt
+dev !_CrvDeviation
+mi !_Mirror
+dra !_draftangleanalysis
+jo !_Join
+bc !_BlendCrv
+spf ! SelPictureframe -_Properties _Material _Object _Enter _T 30 _EnterEnd -_Layer _New background _Lock background _Enter -_ChangeLayer _New background
+pf !_PlanarSrf
+ml !_meshfromlines
+be !_BlendEdge
+P '_Planar
+sepf '_SelPolysrf
+sc !_Scale1D
+bf !_Blendsrf
+cua !_CurvatureAnalysis
+sd ! _Setdisplaymode _Mode _S
+pi !_Pipe
+bg !_-Changelayer _Pause  background
+mo ! _Move
+ec !_extractcontrolpolygon
+U _Undo
+spi !_Split _Pause _Isocurve
+r5 !_-rebuild _Pause _d 5 _p 6 _Enter
+pl !_plane
+sh !_ShrinktrimmedSrf
+ef !_Edgesrf
+pro !_Properties
+vc !_circle _v
+con '_CurvatureGraph
+bb2 !_Boolean2Objects
+mt !_materials
+mu !_MoveUVN
+hd !_Hide
+ei !_ExtractIsocurve
+emm !_EmapOff
+a ! _Top
+bp !_Blend _Perpendicular _Pause _Pause  _Perpendicular
+b !_Bottom
+c !_Circle
+d ! _Front
+pt !_Point
+arr !_ArrayPolar
+em !_Emap
+br !_Bridge
+f !_Perspective
+sp !_Split
+bs !_Blendsrf
+g ! _Setdisplaymode _Mode _G
+hi !_History
+j !_Join
+spp !_Split _Point
+sccc !_Scale
+l ! _Line
+etf !_Extendsrf
+3cc !_removecrease
+m ! _Move
+st !_SetSurfaceTangent
+joa !_SelAll _Join
+o !_Orient
+SelPolysurface '_SelPolysrf
+bbc !_CurveBoolean
+sv !_SubCrv
+xmi ! _Mirror _Pause _X _Copy=_Yes
+exa !_SelAll _Explode
+et !_Extend
+q !_Sphere
+sw ! _Sweep1
+r ! _Setdisplaymode _Mode _R
+nf !_NetworkSrf
+s ! _Right
+hp !_HistoryPurge
+coff '_CurvatureGraphOff
+bbd !_BooleanDifference
+3b !_SubdBox
+3c !_crease
+metal !_-Changelayer _Pause metal
+3d !_subdivide
+ca !_cap
+w ! _Setdisplaymode _Mode _w
+ex !_Explode
+cb ! _Box _Center 0,0 _pasue_pause_Enter_Enter
+x ! _Setdisplaymode _Mode _X
+3sw !_subdsweep1
+3f !_appendface
+ymi ! _Mirror _Pause _Y _Copy=_Yes
+z !_Zebra
+hu !_Invert _Hide
+cd '_ChangeDegree
+ZSA '_Zoom _All _Selected
+plastic !_-Changelayer _Pause  plastic
